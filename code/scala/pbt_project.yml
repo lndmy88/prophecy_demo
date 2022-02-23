@@ -1,0 +1,41 @@
+name: ProphecyDemo
+description: ''
+version: 1
+author: liznguyen@lifung.com
+workflows:
+  workflows/circuits:
+    name: CircuitsIngestion
+    description: null
+    author: liznguyen@lifung.com
+    mode: batch
+    language: scala
+    createdAt: '2022-02-22 10:58:01'
+    datasets:
+      inputs: []
+      outputs: []
+datasets:
+  datasets/test:
+    name: test
+    description: ''
+    author: liznguyen@lifung.com
+    createdAt: '2022-02-22 11:34:13'
+    physicalDatasets:
+      dev:
+        fabricId: 188
+        datasetType: File
+        description: ''
+        author: liznguyen@lifung.com
+        createdAt: '2022-02-22 11:34:13'
+  datasets/circuits:
+    name: circuits
+    description: ''
+    author: liznguyen@lifung.com
+    createdAt: '2022-02-22 13:52:27'
+    physicalDatasets:
+      dev:
+        fabricId: 188
+        datasetType: File
+        description: ''
+        author: liznguyen@lifung.com
+        createdAt: '2022-02-22 13:52:27'
+schedules: {}

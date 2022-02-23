@@ -1,0 +1,40 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: circuitId
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: circuitRef
+    type: string
+    nullable: true
+    metadata: {}
+  - name: name
+    type: string
+    nullable: true
+    metadata: {}
+  - name: location
+    type: string
+    nullable: true
+    metadata: {}
+  - name: country
+    type: string
+    nullable: true
+    metadata: {}
+  - name: lat
+    type: double
+    nullable: true
+    metadata: {}
+  - name: lng
+    type: double
+    nullable: true
+    metadata: {}
+  - name: alt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: url
+    type: string
+    nullable: true
+    metadata: {}
