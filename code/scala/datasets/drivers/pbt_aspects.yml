@@ -1,0 +1,42 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: code
+    type: string
+    nullable: true
+    metadata: {}
+  - name: dob
+    type: string
+    nullable: true
+    metadata: {}
+  - name: driverId
+    type: long
+    nullable: true
+    metadata: {}
+  - name: driverRef
+    type: string
+    nullable: true
+    metadata: {}
+  - name: name
+    type:
+      type: struct
+      fields:
+      - name: forename
+        type: string
+        nullable: true
+        metadata: {}
+      - name: surname
+        type: string
+        nullable: true
+        metadata: {}
+    nullable: true
+    metadata: {}
+  - name: nationality
+    type: string
+    nullable: true
+    metadata: {}
+  - name: number
+    type: string
+    nullable: true
+    metadata: {}

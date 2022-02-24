@@ -1,0 +1,20 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: constructor_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: constructor_ref
+    type: string
+    nullable: true
+    metadata: {}
+  - name: name
+    type: string
+    nullable: true
+    metadata: {}
+  - name: nationality
+    type: string
+    nullable: true
+    metadata: {}

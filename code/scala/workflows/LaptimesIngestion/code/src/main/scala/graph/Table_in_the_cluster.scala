@@ -16,7 +16,7 @@ object Table_in_the_cluster {
           .format("delta")
           .option("fileFormat", "parquet")
           .mode("overwrite")
-          .saveAsTable("default.circuits")
+          .saveAsTable("default.lap_times")
       case _ =>
         throw new Exception("No valid dataset present to read fabric")
     }

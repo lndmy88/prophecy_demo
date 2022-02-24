@@ -1,0 +1,161 @@
+{
+  "metainfo" : {
+    "id" : "1",
+    "language" : "scala",
+    "fabricId" : "188",
+    "frontEndLanguage" : "sql",
+    "mode" : "batch",
+    "interimMode" : "Full",
+    "udfs" : {
+      "language" : "scala",
+      "udfs" : [ ]
+    },
+    "udafs" : {
+      "language" : "scala",
+      "code" : "package udfs\n\nimport org.apache.spark.sql.expressions._\nimport org.apache.spark.sql.types._\nimport org.apache.spark.sql._\n\n/**\n  * Here you can define your custom aggregate functions.\n  *\n  * Make sure to register your `udafs` in the register_udafs function below.\n  *\n  * Example:\n  *\n  * object GeometricMean extends UserDefinedAggregateFunction {\n  *   // This is the input fields for your aggregate function.\n  *   override def inputSchema: org.apache.spark.sql.types.StructType =\n  *     StructType(StructField(\"value\", DoubleType) :: Nil)\n  *\n  *   // This is the internal fields you keep for computing your aggregate.\n  *   override def bufferSchema: StructType = StructType(\n  *     StructField(\"count\", LongType) ::\n  *     StructField(\"product\", DoubleType) :: Nil\n  *   )\n  *\n  *   // This is the output type of your aggregatation function.\n  *   override def dataType: DataType = DoubleType\n  *\n  *   override def deterministic: Boolean = true\n  *\n  *   // This is the initial value for your buffer schema.\n  *   override def initialize(buffer: MutableAggregationBuffer): Unit = {\n  *     buffer(0) = 0L\n  *     buffer(1) = 1.0\n  *   }\n  *\n  *   // This is how to update your buffer schema given an input.\n  *   override def update(buffer: MutableAggregationBuffer, input: Row): Unit = {\n  *     buffer(0) = buffer.getAs[Long](0) + 1\n  *     buffer(1) = buffer.getAs[Double](1) * input.getAs[Double](0)\n  *   }\n  *\n  *   // This is how to merge two objects with the bufferSchema type.\n  *   override def merge(buffer1: MutableAggregationBuffer, buffer2: Row): Unit = {\n  *     buffer1(0) = buffer1.getAs[Long](0) + buffer2.getAs[Long](0)\n  *     buffer1(1) = buffer1.getAs[Double](1) * buffer2.getAs[Double](1)\n  *   }\n  *\n  *   // This is where you output the final value, given the final value of your bufferSchema.\n  *   override def evaluate(buffer: Row): Any = {\n  *     math.pow(buffer.getDouble(1), 1.toDouble / buffer.getLong(0))\n  *   }\n  * }\n  *\n  */\n\n\nobject UDAFs {\n  /**\n    * Registers UDAFs with Spark SQL\n    */\n  def registerUDAFs(spark: SparkSession): Unit = {\n    /**\n      * Example:\n      *\n      * spark.udf.register(\"gm\", GeometricMean)\n      *\n      */\n\n\n  }\n}\n"
+    },
+    "configuration" : {
+      "common" : {
+        "type" : "record",
+        "fields" : [ ]
+      },
+      "fabrics" : {
+        "dev" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      }
+    },
+    "sparkConf" : [ ],
+    "hadoopConf" : [ ],
+    "codeMode" : "sparse",
+    "buildSystem" : "maven"
+  },
+  "connections" : [ {
+    "id" : "edge0",
+    "source" : "33TXVl5pSSLqc77-96hw2",
+    "sourcePort" : "csgd0vAOXp_qhRbldDqgy",
+    "target" : "u5MS7wglCfe0MGAwX9BqI",
+    "targetPort" : "W3mmU3sBStdv0ZwI1dcbe"
+  }, {
+    "id" : "edge1",
+    "source" : "u5MS7wglCfe0MGAwX9BqI",
+    "sourcePort" : "TRYga9pnPeG7VjdvRHVlA",
+    "target" : "e2fXvVDM4ki94CNf-OqlV",
+    "targetPort" : "-dl6oxDLqb20x4OJo3oHF"
+  } ],
+  "processes" : {
+    "e2fXvVDM4ki94CNf-OqlV" : {
+      "id" : "e2fXvVDM4ki94CNf-OqlV",
+      "component" : "Target",
+      "metadata" : {
+        "label" : "Table in the cluster",
+        "slug" : "Table_in_the_cluster",
+        "x" : 724,
+        "y" : 166,
+        "language" : "scala",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "-dl6oxDLqb20x4OJo3oHF",
+          "slug" : "in"
+        } ],
+        "outputs" : [ ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "491/datasets/constructors_des"
+      }
+    },
+    "u5MS7wglCfe0MGAwX9BqI" : {
+      "id" : "u5MS7wglCfe0MGAwX9BqI",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Rename the columns",
+        "slug" : "Rename_the_columns",
+        "x" : 519,
+        "y" : 161,
+        "language" : "scala",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "W3mmU3sBStdv0ZwI1dcbe",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "TRYga9pnPeG7VjdvRHVlA",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "columnsSelector" : [ "W3mmU3sBStdv0ZwI1dcbe##constructorId", "W3mmU3sBStdv0ZwI1dcbe##constructorRef", "W3mmU3sBStdv0ZwI1dcbe##name", "W3mmU3sBStdv0ZwI1dcbe##nationality" ],
+        "expressions" : [ {
+          "target" : "constructor_id",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "constructorId"
+          },
+          "description" : ""
+        }, {
+          "target" : "constructor_ref",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "constructorRef"
+          },
+          "description" : ""
+        }, {
+          "target" : "name",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "name"
+          },
+          "description" : ""
+        }, {
+          "target" : "nationality",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "nationality"
+          },
+          "description" : ""
+        } ]
+      }
+    },
+    "33TXVl5pSSLqc77-96hw2" : {
+      "id" : "33TXVl5pSSLqc77-96hw2",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "ADSL JSON",
+        "slug" : "ADSL_JSON",
+        "x" : 290,
+        "y" : 164,
+        "language" : "scala",
+        "phase" : 0,
+        "cache" : true,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "csgd0vAOXp_qhRbldDqgy",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "491/datasets/constructors"
+      }
+    }
+  },
+  "ports" : {
+    "inputs" : [ ],
+    "outputs" : [ ],
+    "selectedInputFields" : [ ]
+  }
+}

@@ -1,0 +1,36 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: driver_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: driver_ref
+    type: string
+    nullable: true
+    metadata: {}
+  - name: number
+    type: string
+    nullable: true
+    metadata: {}
+  - name: code
+    type: string
+    nullable: true
+    metadata: {}
+  - name: name
+    type: string
+    nullable: true
+    metadata: {}
+  - name: dob
+    type: string
+    nullable: true
+    metadata: {}
+  - name: nationality
+    type: string
+    nullable: true
+    metadata: {}
+  - name: ingestion_date
+    type: timestamp
+    nullable: false
+    metadata: {}

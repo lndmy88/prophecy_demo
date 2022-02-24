@@ -1,0 +1,32 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: driverId
+    type: long
+    nullable: true
+    metadata: {}
+  - name: duration
+    type: string
+    nullable: true
+    metadata: {}
+  - name: lap
+    type: long
+    nullable: true
+    metadata: {}
+  - name: milliseconds
+    type: long
+    nullable: true
+    metadata: {}
+  - name: raceId
+    type: long
+    nullable: true
+    metadata: {}
+  - name: stop
+    type: long
+    nullable: true
+    metadata: {}
+  - name: time
+    type: string
+    nullable: true
+    metadata: {}

@@ -1,0 +1,36 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: raceId
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: year
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: round
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: circuitId
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: name
+    type: string
+    nullable: true
+    metadata: {}
+  - name: date
+    type: string
+    nullable: true
+    metadata: {}
+  - name: time
+    type: string
+    nullable: true
+    metadata: {}
+  - name: url
+    type: string
+    nullable: true
+    metadata: {}

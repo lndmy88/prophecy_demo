@@ -1,0 +1,32 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: race_id
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: driver_id
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: lap
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: position
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: time
+    type: string
+    nullable: true
+    metadata: {}
+  - name: milliseconds
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: ingestion_date
+    type: timestamp
+    nullable: false
+    metadata: {}
