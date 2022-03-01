@@ -15,7 +15,7 @@ object Table_in_the_cluster {
         in.write
           .format("delta")
           .option("fileFormat", "parquet")
-          .mode("append")
+          .mode("overwrite")
           .saveAsTable("default.results")
       case _ =>
         throw new Exception("No valid dataset present to read fabric")

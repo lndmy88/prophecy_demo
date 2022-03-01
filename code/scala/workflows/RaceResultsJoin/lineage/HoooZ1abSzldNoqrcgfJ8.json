@@ -1,0 +1,104 @@
+{
+  "name" : "HoooZ1abSzldNoqrcgfJ8",
+  "component" : "Source",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "",
+      "name" : "race_id",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "su0fijfVD0wAsCjfh1KFh",
+      "name" : "race_id",
+      "exprId" : 45
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "year",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "su0fijfVD0wAsCjfh1KFh",
+      "name" : "year",
+      "exprId" : 46
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "round",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "su0fijfVD0wAsCjfh1KFh",
+      "name" : "round",
+      "exprId" : 47
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "circuit_id",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "su0fijfVD0wAsCjfh1KFh",
+      "name" : "circuit_id",
+      "exprId" : 48
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "name",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "su0fijfVD0wAsCjfh1KFh",
+      "name" : "name",
+      "exprId" : 49
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "race_timestamp",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "su0fijfVD0wAsCjfh1KFh",
+      "name" : "race_timestamp",
+      "exprId" : 50
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "ingestion_date",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "su0fijfVD0wAsCjfh1KFh",
+      "name" : "ingestion_date",
+      "exprId" : 51
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "date",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "su0fijfVD0wAsCjfh1KFh",
+      "name" : "date",
+      "exprId" : 52
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "time",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "su0fijfVD0wAsCjfh1KFh",
+      "name" : "time",
+      "exprId" : 53
+    }
+  } ]
+}

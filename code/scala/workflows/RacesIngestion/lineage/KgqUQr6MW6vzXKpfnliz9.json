@@ -1,0 +1,93 @@
+{
+  "name" : "KgqUQr6MW6vzXKpfnliz9",
+  "component" : "Source",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "",
+      "name" : "raceId",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "HezXRY6MsaGEErhfvqqhs",
+      "name" : "raceId",
+      "exprId" : 8
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "year",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "HezXRY6MsaGEErhfvqqhs",
+      "name" : "year",
+      "exprId" : 9
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "round",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "HezXRY6MsaGEErhfvqqhs",
+      "name" : "round",
+      "exprId" : 10
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "circuitId",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "HezXRY6MsaGEErhfvqqhs",
+      "name" : "circuitId",
+      "exprId" : 11
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "name",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "HezXRY6MsaGEErhfvqqhs",
+      "name" : "name",
+      "exprId" : 12
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "date",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "HezXRY6MsaGEErhfvqqhs",
+      "name" : "date",
+      "exprId" : 13
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "time",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "HezXRY6MsaGEErhfvqqhs",
+      "name" : "time",
+      "exprId" : 14
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "url",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "HezXRY6MsaGEErhfvqqhs",
+      "name" : "url",
+      "exprId" : 15
+    }
+  } ]
+}

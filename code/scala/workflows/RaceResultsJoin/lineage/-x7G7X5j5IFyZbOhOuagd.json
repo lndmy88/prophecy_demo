@@ -1,0 +1,203 @@
+{
+  "name" : "-x7G7X5j5IFyZbOhOuagd",
+  "component" : "Source",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "",
+      "name" : "result_id",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "result_id",
+      "exprId" : 81
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "race_id",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "race_id",
+      "exprId" : 82
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "driver_id",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "driver_id",
+      "exprId" : 83
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "constructor_id",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "constructor_id",
+      "exprId" : 84
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "number",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "number",
+      "exprId" : 85
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "grid",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "grid",
+      "exprId" : 86
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "position",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "position",
+      "exprId" : 87
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "position_text",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "position_text",
+      "exprId" : 88
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "position_order",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "position_order",
+      "exprId" : 89
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "points",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "points",
+      "exprId" : 90
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "laps",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "laps",
+      "exprId" : 91
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "time",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "time",
+      "exprId" : 92
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "milliseconds",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "milliseconds",
+      "exprId" : 93
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "fastest_lap",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "fastest_lap",
+      "exprId" : 94
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "rank",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "rank",
+      "exprId" : 95
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "fastest_lap_time",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "fastest_lap_time",
+      "exprId" : 96
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "fastest_lap_speed",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "fastest_lap_speed",
+      "exprId" : 97
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "ingestion_date",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "YfzkQ6nzGpXVx4XI16Olu",
+      "name" : "ingestion_date",
+      "exprId" : 98
+    }
+  } ]
+}

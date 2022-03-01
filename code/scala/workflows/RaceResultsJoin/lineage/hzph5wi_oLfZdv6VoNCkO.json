@@ -1,0 +1,134 @@
+{
+  "name" : "hzph5wi_oLfZdv6VoNCkO",
+  "component" : "Join",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "-Z-aIaOM_eBynoQPX7dfB",
+      "name" : "result_id",
+      "exprId" : 380
+    } ],
+    "destination" : {
+      "port" : "nfKqoJ77_BbdNESh4Ame5",
+      "name" : "result_id",
+      "exprId" : 462
+    }
+  }, {
+    "sources" : [ {
+      "port" : "-Z-aIaOM_eBynoQPX7dfB",
+      "name" : "grid",
+      "exprId" : 384
+    } ],
+    "destination" : {
+      "port" : "nfKqoJ77_BbdNESh4Ame5",
+      "name" : "grid",
+      "exprId" : 463
+    }
+  }, {
+    "sources" : [ {
+      "port" : "-Z-aIaOM_eBynoQPX7dfB",
+      "name" : "points",
+      "exprId" : 385
+    } ],
+    "destination" : {
+      "port" : "nfKqoJ77_BbdNESh4Ame5",
+      "name" : "points",
+      "exprId" : 464
+    }
+  }, {
+    "sources" : [ {
+      "port" : "-Z-aIaOM_eBynoQPX7dfB",
+      "name" : "fastest_lap",
+      "exprId" : 386
+    } ],
+    "destination" : {
+      "port" : "nfKqoJ77_BbdNESh4Ame5",
+      "name" : "fastest_lap",
+      "exprId" : 465
+    }
+  }, {
+    "sources" : [ {
+      "port" : "-Z-aIaOM_eBynoQPX7dfB",
+      "name" : "race_name",
+      "exprId" : 387
+    } ],
+    "destination" : {
+      "port" : "nfKqoJ77_BbdNESh4Ame5",
+      "name" : "race_name",
+      "exprId" : 466
+    }
+  }, {
+    "sources" : [ {
+      "port" : "-Z-aIaOM_eBynoQPX7dfB",
+      "name" : "race_year",
+      "exprId" : 388
+    } ],
+    "destination" : {
+      "port" : "nfKqoJ77_BbdNESh4Ame5",
+      "name" : "race_year",
+      "exprId" : 467
+    }
+  }, {
+    "sources" : [ {
+      "port" : "-Z-aIaOM_eBynoQPX7dfB",
+      "name" : "circuit_location",
+      "exprId" : 390
+    } ],
+    "destination" : {
+      "port" : "nfKqoJ77_BbdNESh4Ame5",
+      "name" : "circuit_location",
+      "exprId" : 468
+    }
+  }, {
+    "sources" : [ {
+      "port" : "-Z-aIaOM_eBynoQPX7dfB",
+      "name" : "driver_name",
+      "exprId" : 391
+    } ],
+    "destination" : {
+      "port" : "nfKqoJ77_BbdNESh4Ame5",
+      "name" : "driver_name",
+      "exprId" : 469
+    }
+  }, {
+    "sources" : [ {
+      "port" : "-Z-aIaOM_eBynoQPX7dfB",
+      "name" : "driver_number",
+      "exprId" : 392
+    } ],
+    "destination" : {
+      "port" : "nfKqoJ77_BbdNESh4Ame5",
+      "name" : "driver_number",
+      "exprId" : 470
+    }
+  }, {
+    "sources" : [ {
+      "port" : "-Z-aIaOM_eBynoQPX7dfB",
+      "name" : "driver_nationality",
+      "exprId" : 393
+    } ],
+    "destination" : {
+      "port" : "nfKqoJ77_BbdNESh4Ame5",
+      "name" : "driver_nationality",
+      "exprId" : 471
+    }
+  }, {
+    "sources" : [ {
+      "port" : "7v9KXbW2tk-vO2MNr-Vpb",
+      "name" : "name",
+      "exprId" : 6
+    } ],
+    "destination" : {
+      "port" : "nfKqoJ77_BbdNESh4Ame5",
+      "name" : "constructor_name",
+      "exprId" : 472
+    }
+  }, {
+    "sources" : [ ],
+    "destination" : {
+      "port" : "nfKqoJ77_BbdNESh4Ame5",
+      "name" : "created_date",
+      "exprId" : 473
+    },
+    "transformation" : "current_timestamp()"
+  } ]
+}

@@ -1,0 +1,104 @@
+{
+  "name" : "X5RP417oZ1-S--Mpvh-bI",
+  "component" : "Target",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "7tYycjRkwFharcraNxtuf",
+      "name" : "race_id",
+      "exprId" : 24
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "race_id",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "7tYycjRkwFharcraNxtuf",
+      "name" : "year",
+      "exprId" : 9
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "year",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "7tYycjRkwFharcraNxtuf",
+      "name" : "round",
+      "exprId" : 10
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "round",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "7tYycjRkwFharcraNxtuf",
+      "name" : "circuit_id",
+      "exprId" : 25
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "circuit_id",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "7tYycjRkwFharcraNxtuf",
+      "name" : "name",
+      "exprId" : 12
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "name",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "7tYycjRkwFharcraNxtuf",
+      "name" : "race_timestamp",
+      "exprId" : 26
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "race_timestamp",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "7tYycjRkwFharcraNxtuf",
+      "name" : "ingestion_date",
+      "exprId" : 27
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "ingestion_date",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "7tYycjRkwFharcraNxtuf",
+      "name" : "date",
+      "exprId" : 13
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "date",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "7tYycjRkwFharcraNxtuf",
+      "name" : "time",
+      "exprId" : 14
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "time",
+      "exprId" : -1
+    }
+  } ]
+}

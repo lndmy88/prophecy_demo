@@ -1,0 +1,137 @@
+{
+  "name" : "h_4wVVt_Iz8MaihFqi997",
+  "component" : "Target",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "fYVtBCtgzQVfUBNaEIq9v",
+      "name" : "result_id",
+      "exprId" : 462
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "result_id",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "fYVtBCtgzQVfUBNaEIq9v",
+      "name" : "grid",
+      "exprId" : 463
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "grid",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "fYVtBCtgzQVfUBNaEIq9v",
+      "name" : "points",
+      "exprId" : 464
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "points",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "fYVtBCtgzQVfUBNaEIq9v",
+      "name" : "fastest_lap",
+      "exprId" : 465
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "fastest_lap",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "fYVtBCtgzQVfUBNaEIq9v",
+      "name" : "race_name",
+      "exprId" : 466
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "race_name",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "fYVtBCtgzQVfUBNaEIq9v",
+      "name" : "race_year",
+      "exprId" : 467
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "race_year",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "fYVtBCtgzQVfUBNaEIq9v",
+      "name" : "circuit_location",
+      "exprId" : 468
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "circuit_location",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "fYVtBCtgzQVfUBNaEIq9v",
+      "name" : "driver_name",
+      "exprId" : 469
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "driver_name",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "fYVtBCtgzQVfUBNaEIq9v",
+      "name" : "driver_number",
+      "exprId" : 470
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "driver_number",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "fYVtBCtgzQVfUBNaEIq9v",
+      "name" : "driver_nationality",
+      "exprId" : 471
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "driver_nationality",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "fYVtBCtgzQVfUBNaEIq9v",
+      "name" : "constructor_name",
+      "exprId" : 472
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "constructor_name",
+      "exprId" : -1
+    }
+  }, {
+    "sources" : [ {
+      "port" : "fYVtBCtgzQVfUBNaEIq9v",
+      "name" : "created_date",
+      "exprId" : 473
+    } ],
+    "destination" : {
+      "port" : "",
+      "name" : "created_date",
+      "exprId" : -1
+    }
+  } ]
+}

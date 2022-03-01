@@ -500,8 +500,8 @@
       "metadata" : {
         "label" : "Current data",
         "slug" : "Current_data",
-        "x" : 374,
-        "y" : 136,
+        "x" : 375,
+        "y" : 134,
         "language" : "scala",
         "phase" : 0,
         "cache" : true,

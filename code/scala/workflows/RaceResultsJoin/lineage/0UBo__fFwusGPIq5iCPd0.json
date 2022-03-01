@@ -1,0 +1,126 @@
+{
+  "name" : "0UBo__fFwusGPIq5iCPd0",
+  "component" : "Join",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "E06BSEoF1827wb2Ar7ybj",
+      "name" : "result_id",
+      "exprId" : 81
+    } ],
+    "destination" : {
+      "port" : "KeiBSW_MMm4Fom9ajG2eC",
+      "name" : "result_id",
+      "exprId" : 198
+    }
+  }, {
+    "sources" : [ {
+      "port" : "E06BSEoF1827wb2Ar7ybj",
+      "name" : "race_id",
+      "exprId" : 82
+    } ],
+    "destination" : {
+      "port" : "KeiBSW_MMm4Fom9ajG2eC",
+      "name" : "race_id",
+      "exprId" : 199
+    }
+  }, {
+    "sources" : [ {
+      "port" : "E06BSEoF1827wb2Ar7ybj",
+      "name" : "driver_id",
+      "exprId" : 83
+    } ],
+    "destination" : {
+      "port" : "KeiBSW_MMm4Fom9ajG2eC",
+      "name" : "driver_id",
+      "exprId" : 200
+    }
+  }, {
+    "sources" : [ {
+      "port" : "E06BSEoF1827wb2Ar7ybj",
+      "name" : "constructor_id",
+      "exprId" : 84
+    } ],
+    "destination" : {
+      "port" : "KeiBSW_MMm4Fom9ajG2eC",
+      "name" : "constructor_id",
+      "exprId" : 201
+    }
+  }, {
+    "sources" : [ {
+      "port" : "E06BSEoF1827wb2Ar7ybj",
+      "name" : "grid",
+      "exprId" : 86
+    } ],
+    "destination" : {
+      "port" : "KeiBSW_MMm4Fom9ajG2eC",
+      "name" : "grid",
+      "exprId" : 202
+    }
+  }, {
+    "sources" : [ {
+      "port" : "E06BSEoF1827wb2Ar7ybj",
+      "name" : "points",
+      "exprId" : 90
+    } ],
+    "destination" : {
+      "port" : "KeiBSW_MMm4Fom9ajG2eC",
+      "name" : "points",
+      "exprId" : 203
+    }
+  }, {
+    "sources" : [ {
+      "port" : "E06BSEoF1827wb2Ar7ybj",
+      "name" : "fastest_lap",
+      "exprId" : 94
+    } ],
+    "destination" : {
+      "port" : "KeiBSW_MMm4Fom9ajG2eC",
+      "name" : "fastest_lap",
+      "exprId" : 204
+    }
+  }, {
+    "sources" : [ {
+      "port" : "0lL-ZLg-8wauD3pJji2M1",
+      "name" : "name",
+      "exprId" : 49
+    } ],
+    "destination" : {
+      "port" : "KeiBSW_MMm4Fom9ajG2eC",
+      "name" : "race_name",
+      "exprId" : 205
+    }
+  }, {
+    "sources" : [ {
+      "port" : "0lL-ZLg-8wauD3pJji2M1",
+      "name" : "year",
+      "exprId" : 46
+    } ],
+    "destination" : {
+      "port" : "KeiBSW_MMm4Fom9ajG2eC",
+      "name" : "race_year",
+      "exprId" : 206
+    }
+  }, {
+    "sources" : [ {
+      "port" : "0lL-ZLg-8wauD3pJji2M1",
+      "name" : "date",
+      "exprId" : 52
+    } ],
+    "destination" : {
+      "port" : "KeiBSW_MMm4Fom9ajG2eC",
+      "name" : "race_date",
+      "exprId" : 207
+    }
+  }, {
+    "sources" : [ {
+      "port" : "0lL-ZLg-8wauD3pJji2M1",
+      "name" : "circuit_id",
+      "exprId" : 48
+    } ],
+    "destination" : {
+      "port" : "KeiBSW_MMm4Fom9ajG2eC",
+      "name" : "circuit_id",
+      "exprId" : 208
+    }
+  } ]
+}

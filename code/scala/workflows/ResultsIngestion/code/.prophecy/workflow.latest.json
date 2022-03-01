@@ -76,8 +76,8 @@
       "metadata" : {
         "label" : "Table in the cluster",
         "slug" : "Table_in_the_cluster",
-        "x" : 644,
-        "y" : 143,
+        "x" : 643,
+        "y" : 142,
         "language" : "scala",
         "phase" : 0,
         "cache" : false,
@@ -92,7 +92,7 @@
         "selectedInputFields" : [ ]
       },
       "properties" : {
-        "datasetId" : "491/datasets/results_des"
+        "datasetId" : "491/datasets/result_des"
       }
     },
     "jETcS8dKF-jD_-7blstef" : {

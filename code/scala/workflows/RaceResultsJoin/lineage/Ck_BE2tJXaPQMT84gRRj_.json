@@ -1,0 +1,159 @@
+{
+  "name" : "Ck_BE2tJXaPQMT84gRRj_",
+  "component" : "Join",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "WYBeolLhNA1zT2TiRAZDH",
+      "name" : "result_id",
+      "exprId" : 277
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "result_id",
+      "exprId" : 380
+    }
+  }, {
+    "sources" : [ {
+      "port" : "WYBeolLhNA1zT2TiRAZDH",
+      "name" : "race_id",
+      "exprId" : 278
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "race_id",
+      "exprId" : 381
+    }
+  }, {
+    "sources" : [ {
+      "port" : "WYBeolLhNA1zT2TiRAZDH",
+      "name" : "driver_id",
+      "exprId" : 279
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "driver_id",
+      "exprId" : 382
+    }
+  }, {
+    "sources" : [ {
+      "port" : "WYBeolLhNA1zT2TiRAZDH",
+      "name" : "constructor_id",
+      "exprId" : 280
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "constructor_id",
+      "exprId" : 383
+    }
+  }, {
+    "sources" : [ {
+      "port" : "WYBeolLhNA1zT2TiRAZDH",
+      "name" : "grid",
+      "exprId" : 281
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "grid",
+      "exprId" : 384
+    }
+  }, {
+    "sources" : [ {
+      "port" : "WYBeolLhNA1zT2TiRAZDH",
+      "name" : "points",
+      "exprId" : 282
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "points",
+      "exprId" : 385
+    }
+  }, {
+    "sources" : [ {
+      "port" : "WYBeolLhNA1zT2TiRAZDH",
+      "name" : "fastest_lap",
+      "exprId" : 283
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "fastest_lap",
+      "exprId" : 386
+    }
+  }, {
+    "sources" : [ {
+      "port" : "WYBeolLhNA1zT2TiRAZDH",
+      "name" : "race_name",
+      "exprId" : 284
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "race_name",
+      "exprId" : 387
+    }
+  }, {
+    "sources" : [ {
+      "port" : "WYBeolLhNA1zT2TiRAZDH",
+      "name" : "race_year",
+      "exprId" : 285
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "race_year",
+      "exprId" : 388
+    }
+  }, {
+    "sources" : [ {
+      "port" : "WYBeolLhNA1zT2TiRAZDH",
+      "name" : "circuit_id",
+      "exprId" : 286
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "circuit_id",
+      "exprId" : 389
+    }
+  }, {
+    "sources" : [ {
+      "port" : "WYBeolLhNA1zT2TiRAZDH",
+      "name" : "circuit_location",
+      "exprId" : 287
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "circuit_location",
+      "exprId" : 390
+    }
+  }, {
+    "sources" : [ {
+      "port" : "nwCZ7NTLkaQPvBwcMunXo",
+      "name" : "name",
+      "exprId" : 311
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "driver_name",
+      "exprId" : 391
+    }
+  }, {
+    "sources" : [ {
+      "port" : "nwCZ7NTLkaQPvBwcMunXo",
+      "name" : "number",
+      "exprId" : 309
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "driver_number",
+      "exprId" : 392
+    }
+  }, {
+    "sources" : [ {
+      "port" : "nwCZ7NTLkaQPvBwcMunXo",
+      "name" : "nationality",
+      "exprId" : 313
+    } ],
+    "destination" : {
+      "port" : "mcAWkgFIwlmyeePWYm4L3",
+      "name" : "driver_nationality",
+      "exprId" : 393
+    }
+  } ]
+}

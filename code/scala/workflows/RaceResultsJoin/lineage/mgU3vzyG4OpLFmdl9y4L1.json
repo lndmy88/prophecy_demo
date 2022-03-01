@@ -1,0 +1,93 @@
+{
+  "name" : "mgU3vzyG4OpLFmdl9y4L1",
+  "component" : "Source",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "",
+      "name" : "circuit_id",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "ZfOZVwjM4zmad9xQ6KdVG",
+      "name" : "circuit_id",
+      "exprId" : 20
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "circuit_ref",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "ZfOZVwjM4zmad9xQ6KdVG",
+      "name" : "circuit_ref",
+      "exprId" : 21
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "name",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "ZfOZVwjM4zmad9xQ6KdVG",
+      "name" : "name",
+      "exprId" : 22
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "location",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "ZfOZVwjM4zmad9xQ6KdVG",
+      "name" : "location",
+      "exprId" : 23
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "country",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "ZfOZVwjM4zmad9xQ6KdVG",
+      "name" : "country",
+      "exprId" : 24
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "latitude",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "ZfOZVwjM4zmad9xQ6KdVG",
+      "name" : "latitude",
+      "exprId" : 25
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "longitude",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "ZfOZVwjM4zmad9xQ6KdVG",
+      "name" : "longitude",
+      "exprId" : 26
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "altitude",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "ZfOZVwjM4zmad9xQ6KdVG",
+      "name" : "altitude",
+      "exprId" : 27
+    }
+  } ]
+}

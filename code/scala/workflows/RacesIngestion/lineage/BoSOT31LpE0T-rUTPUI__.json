@@ -1,0 +1,106 @@
+{
+  "name" : "BoSOT31LpE0T-rUTPUI__",
+  "component" : "Reformat",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "SlThxt_D9pEtPW5Kw79gp",
+      "name" : "raceId",
+      "exprId" : 8
+    } ],
+    "destination" : {
+      "port" : "yVb1QzJGQbHtHYlCmlbkf",
+      "name" : "race_id",
+      "exprId" : 24
+    }
+  }, {
+    "sources" : [ {
+      "port" : "SlThxt_D9pEtPW5Kw79gp",
+      "name" : "year",
+      "exprId" : 9
+    } ],
+    "destination" : {
+      "port" : "yVb1QzJGQbHtHYlCmlbkf",
+      "name" : "year",
+      "exprId" : 9
+    }
+  }, {
+    "sources" : [ {
+      "port" : "SlThxt_D9pEtPW5Kw79gp",
+      "name" : "round",
+      "exprId" : 10
+    } ],
+    "destination" : {
+      "port" : "yVb1QzJGQbHtHYlCmlbkf",
+      "name" : "round",
+      "exprId" : 10
+    }
+  }, {
+    "sources" : [ {
+      "port" : "SlThxt_D9pEtPW5Kw79gp",
+      "name" : "circuitId",
+      "exprId" : 11
+    } ],
+    "destination" : {
+      "port" : "yVb1QzJGQbHtHYlCmlbkf",
+      "name" : "circuit_id",
+      "exprId" : 25
+    }
+  }, {
+    "sources" : [ {
+      "port" : "SlThxt_D9pEtPW5Kw79gp",
+      "name" : "name",
+      "exprId" : 12
+    } ],
+    "destination" : {
+      "port" : "yVb1QzJGQbHtHYlCmlbkf",
+      "name" : "name",
+      "exprId" : 12
+    }
+  }, {
+    "sources" : [ {
+      "port" : "SlThxt_D9pEtPW5Kw79gp",
+      "name" : "date",
+      "exprId" : 13
+    }, {
+      "port" : "SlThxt_D9pEtPW5Kw79gp",
+      "name" : "time",
+      "exprId" : 14
+    } ],
+    "destination" : {
+      "port" : "yVb1QzJGQbHtHYlCmlbkf",
+      "name" : "race_timestamp",
+      "exprId" : 26
+    },
+    "transformation" : "to_timestamp(concat(`date`, ' ', `time`), 'yyyy-MM-dd HH:mm:ss')"
+  }, {
+    "sources" : [ ],
+    "destination" : {
+      "port" : "yVb1QzJGQbHtHYlCmlbkf",
+      "name" : "ingestion_date",
+      "exprId" : 27
+    },
+    "transformation" : "current_timestamp()"
+  }, {
+    "sources" : [ {
+      "port" : "SlThxt_D9pEtPW5Kw79gp",
+      "name" : "date",
+      "exprId" : 13
+    } ],
+    "destination" : {
+      "port" : "yVb1QzJGQbHtHYlCmlbkf",
+      "name" : "date",
+      "exprId" : 13
+    }
+  }, {
+    "sources" : [ {
+      "port" : "SlThxt_D9pEtPW5Kw79gp",
+      "name" : "time",
+      "exprId" : 14
+    } ],
+    "destination" : {
+      "port" : "yVb1QzJGQbHtHYlCmlbkf",
+      "name" : "time",
+      "exprId" : 14
+    }
+  } ]
+}
