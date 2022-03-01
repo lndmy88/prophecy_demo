@@ -21,7 +21,9 @@ object Transform {
       to_timestamp(concat(col("date"), lit(" "), col("time")),
                    "yyyy-MM-dd HH:mm:ss"
       ).as("race_timestamp"),
-      current_timestamp().as("ingestion_date")
+      current_timestamp().as("ingestion_date"),
+      col("date"),
+      col("time")
     )
 
 }

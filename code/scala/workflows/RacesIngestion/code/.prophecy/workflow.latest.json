@@ -145,6 +145,20 @@
             "expression" : "current_timestamp()"
           },
           "description" : ""
+        }, {
+          "target" : "date",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "date"
+          },
+          "description" : ""
+        }, {
+          "target" : "time",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "time"
+          },
+          "description" : ""
         } ]
       }
     },

@@ -1,0 +1,104 @@
+{
+  "name" : "BYNd54sMimTW3TFwdcTGl",
+  "component" : "Source",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "",
+      "name" : "circuitId",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "KBCCF_cSVipTcs_IWjHQM",
+      "name" : "circuitId",
+      "exprId" : 9
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "circuitRef",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "KBCCF_cSVipTcs_IWjHQM",
+      "name" : "circuitRef",
+      "exprId" : 10
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "name",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "KBCCF_cSVipTcs_IWjHQM",
+      "name" : "name",
+      "exprId" : 11
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "location",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "KBCCF_cSVipTcs_IWjHQM",
+      "name" : "location",
+      "exprId" : 12
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "country",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "KBCCF_cSVipTcs_IWjHQM",
+      "name" : "country",
+      "exprId" : 13
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "lat",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "KBCCF_cSVipTcs_IWjHQM",
+      "name" : "lat",
+      "exprId" : 14
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "lng",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "KBCCF_cSVipTcs_IWjHQM",
+      "name" : "lng",
+      "exprId" : 15
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "alt",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "KBCCF_cSVipTcs_IWjHQM",
+      "name" : "alt",
+      "exprId" : 16
+    }
+  }, {
+    "sources" : [ {
+      "port" : "",
+      "name" : "url",
+      "exprId" : -1
+    } ],
+    "destination" : {
+      "port" : "KBCCF_cSVipTcs_IWjHQM",
+      "name" : "url",
+      "exprId" : 17
+    }
+  } ]
+}

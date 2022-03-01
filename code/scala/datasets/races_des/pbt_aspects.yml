@@ -30,3 +30,11 @@ schema:
     type: timestamp
     nullable: false
     metadata: {}
+  - name: date
+    type: string
+    nullable: true
+    metadata: {}
+  - name: time
+    type: string
+    nullable: true
+    metadata: {}

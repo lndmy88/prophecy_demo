@@ -1,0 +1,93 @@
+{
+  "name" : "Fik8ZyIf4VnpS8B0NUORL",
+  "component" : "Reformat",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "G9LqFh2T3H4Ng7m6hwUJe",
+      "name" : "circuitId",
+      "exprId" : 9
+    } ],
+    "destination" : {
+      "port" : "R9NgRBly_AwcFWbqHmlKc",
+      "name" : "circuit_id",
+      "exprId" : 27
+    }
+  }, {
+    "sources" : [ {
+      "port" : "G9LqFh2T3H4Ng7m6hwUJe",
+      "name" : "circuitRef",
+      "exprId" : 10
+    } ],
+    "destination" : {
+      "port" : "R9NgRBly_AwcFWbqHmlKc",
+      "name" : "circuit_ref",
+      "exprId" : 28
+    }
+  }, {
+    "sources" : [ {
+      "port" : "G9LqFh2T3H4Ng7m6hwUJe",
+      "name" : "name",
+      "exprId" : 11
+    } ],
+    "destination" : {
+      "port" : "R9NgRBly_AwcFWbqHmlKc",
+      "name" : "name",
+      "exprId" : 11
+    }
+  }, {
+    "sources" : [ {
+      "port" : "G9LqFh2T3H4Ng7m6hwUJe",
+      "name" : "location",
+      "exprId" : 12
+    } ],
+    "destination" : {
+      "port" : "R9NgRBly_AwcFWbqHmlKc",
+      "name" : "location",
+      "exprId" : 12
+    }
+  }, {
+    "sources" : [ {
+      "port" : "G9LqFh2T3H4Ng7m6hwUJe",
+      "name" : "country",
+      "exprId" : 13
+    } ],
+    "destination" : {
+      "port" : "R9NgRBly_AwcFWbqHmlKc",
+      "name" : "country",
+      "exprId" : 13
+    }
+  }, {
+    "sources" : [ {
+      "port" : "G9LqFh2T3H4Ng7m6hwUJe",
+      "name" : "lat",
+      "exprId" : 14
+    } ],
+    "destination" : {
+      "port" : "R9NgRBly_AwcFWbqHmlKc",
+      "name" : "latitude",
+      "exprId" : 29
+    }
+  }, {
+    "sources" : [ {
+      "port" : "G9LqFh2T3H4Ng7m6hwUJe",
+      "name" : "lng",
+      "exprId" : 15
+    } ],
+    "destination" : {
+      "port" : "R9NgRBly_AwcFWbqHmlKc",
+      "name" : "longitude",
+      "exprId" : 30
+    }
+  }, {
+    "sources" : [ {
+      "port" : "G9LqFh2T3H4Ng7m6hwUJe",
+      "name" : "alt",
+      "exprId" : 16
+    } ],
+    "destination" : {
+      "port" : "R9NgRBly_AwcFWbqHmlKc",
+      "name" : "altitude",
+      "exprId" : 31
+    }
+  } ]
+}

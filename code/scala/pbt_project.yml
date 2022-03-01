@@ -53,13 +53,13 @@ workflows:
     datasets:
       inputs: []
       outputs: []
-  workflows/ResultsIngestion:
-    name: ResultsIngestion
+  workflows/RaceResultsJoin:
+    name: RaceResultsJoin
     description: null
     author: liznguyen@lifung.com
     mode: batch
     language: scala
-    createdAt: '2022-02-23 02:13:20'
+    createdAt: '2022-02-24 02:38:20'
     datasets:
       inputs: []
       outputs: []
@@ -83,7 +83,39 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+  workflows/ResultsIngestion:
+    name: ResultsIngestion
+    description: null
+    author: liznguyen@lifung.com
+    mode: batch
+    language: scala
+    createdAt: '2022-02-23 02:13:20'
+    datasets:
+      inputs: []
+      outputs: []
+  workflows/ResultsIncLoad:
+    name: ResultsIncLoad
+    description: null
+    author: liznguyen@lifung.com
+    mode: batch
+    language: scala
+    createdAt: '2022-02-28 10:02:02'
+    datasets:
+      inputs: []
+      outputs: []
 datasets:
+  datasets/race_results:
+    name: race_results
+    description: ''
+    author: liznguyen@lifung.com
+    createdAt: '2022-02-24 03:18:25'
+    physicalDatasets:
+      dev:
+        fabricId: 188
+        datasetType: Database
+        description: ''
+        author: liznguyen@lifung.com
+        createdAt: '2022-02-24 03:18:25'
   datasets/drivers:
     name: drivers
     description: ''
@@ -144,6 +176,18 @@ datasets:
         description: ''
         author: liznguyen@lifung.com
         createdAt: '2022-02-23 08:28:24'
+  datasets/results_incr_src:
+    name: results_incr_src
+    description: ''
+    author: liznguyen@lifung.com
+    createdAt: '2022-02-28 10:06:16'
+    physicalDatasets:
+      dev:
+        fabricId: 188
+        datasetType: File
+        description: ''
+        author: liznguyen@lifung.com
+        createdAt: '2022-02-28 10:06:16'
   datasets/results_des:
     name: results_des
     description: ''
@@ -276,4 +320,9 @@ datasets:
         description: ''
         author: liznguyen@lifung.com
         createdAt: '2022-02-23 08:53:28'
-schedules: {}
+schedules:
+  schedules/DemoScheduling:
+    name: DemoScheduling
+    description: ''
+    createdAt: '2022-03-01 02:06:09'
+    author: liznguyen@lifung.com

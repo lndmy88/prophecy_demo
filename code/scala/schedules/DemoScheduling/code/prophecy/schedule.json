@@ -1,0 +1,91 @@
+{
+  "metadata" : {
+    "name" : "DemoScheduling",
+    "projectId" : "491",
+    "language" : "python",
+    "configurations" : {
+      "common" : [ {
+        "scope" : "dag_args",
+        "name" : "dag_id",
+        "type" : "string",
+        "value" : "DemoScheduling",
+        "required" : true,
+        "comment" : "This value is used if you download the DAG as a zip and manually put it in your airflow's DAG bag"
+      }, {
+        "scope" : "dag_args",
+        "name" : "start_date",
+        "type" : "date_time",
+        "value" : "2022-02-28T02:06:13.511404 GMT",
+        "required" : true,
+        "comment" : "Your schedule will start running at start_date + interval. The first run starts soon after one interval has passed after the start_date."
+      }, {
+        "scope" : "dag_args",
+        "name" : "schedule_interval",
+        "type" : "cron_expression",
+        "value" : "0 0 * * *",
+        "required" : true,
+        "comment" : "The interval with which this schedule will run. Enter a cron expression here."
+      } ],
+      "fabrics" : { }
+    }
+  },
+  "processes" : {
+    "Sensor_0" : {
+      "component" : "Sensor",
+      "metadata" : {
+        "label" : "Sensor_0",
+        "x" : 100,
+        "y" : 100
+      },
+      "ports" : {
+        "inputs" : [ "in" ],
+        "outputs" : [ "out" ]
+      },
+      "properties" : {
+        "sensor" : {
+          "sslCertificates" : false,
+          "connectionId" : "",
+          "wildcards" : false,
+          "s3FullPath" : "",
+          "type" : "s3Key"
+        },
+        "interval" : "60",
+        "softFail" : false,
+        "mode" : "poke",
+        "exponentialBackoff" : false,
+        "timeout" : "604800",
+        "trigger" : "all_success"
+      }
+    },
+    "Workflow_0" : {
+      "component" : "Workflow",
+      "metadata" : {
+        "label" : "Workflow_0",
+        "x" : 282,
+        "y" : 116
+      },
+      "ports" : {
+        "inputs" : [ "in" ],
+        "outputs" : [ "out" ]
+      },
+      "properties" : {
+        "projectId" : "491",
+        "fabrics" : {
+          "dev" : {
+            "jobSizeId" : "Small",
+            "airflowOperator" : "databricks"
+          }
+        },
+        "configuration" : [ ],
+        "workflowId" : "",
+        "trigger" : "all_success"
+      }
+    }
+  },
+  "connections" : [ ],
+  "ports" : {
+    "inputs" : [ "in" ],
+    "outputs" : [ "out" ]
+  },
+  "groups" : { }
+}
